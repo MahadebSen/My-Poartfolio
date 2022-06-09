@@ -4,8 +4,8 @@ import Typewriter from "typewriter-effect";
 
 const Banner = () => {
   return (
-    <section>
-      <div className="flex justify-center items-center flex-col lg:flex-row gap-32 lg:gap-2 max-w-7xl mx-auto text-left pb-12 mt-20 lg:mt-10">
+    <section className="my-20 lg:my-28">
+      <div className="flex justify-center items-center flex-col lg:flex-row gap-32 lg:gap-2 max-w-7xl mx-auto text-left pb-12 ">
         <div className="flex-1 mx-10 md:mx-32 lg:ml-16 lg:mr-8">
           <p className="font-mono text-xl text-[#bb005d] pt-3">
             Hi, my name is{" "}
@@ -29,7 +29,7 @@ const Banner = () => {
           </p>
         </div>
         <div className="flex-1 lg:mr-12">
-          <img className="w-[500px]" src={banner} alt="" />
+          <img className="w-[500px] mx-auto" src={banner} alt="" />
         </div>
       </div>
     </section>

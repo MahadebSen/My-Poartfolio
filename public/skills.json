@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "sd542",
+    "name": "HTML 5",
+    "img": "https://i.ibb.co/7rZRK5p/HTML.png"
+  },
+  {
+    "_id": "as458",
+    "name": "CSS 3",
+    "img": "https://i.ibb.co/7KdgzbW/CSS.png"
+  },
+  {
+    "_id": "sg78",
+    "name": "tailwind css",
+    "img": "https://i.ibb.co/hHmh3KT/Tailwind.png"
+  },
+  {
+    "_id": "kl125",
+    "name": "React Bootstrap",
+    "img": "https://i.ibb.co/FJMtnmR/Reacr-bootstrat.png"
+  },
+  {
+    "_id": "gy178",
+    "name": "JavaScript",
+    "img": "https://i.ibb.co/RpTh5BK/Java-Script.png"
+  },
+  {
+    "_id": "er965",
+    "name": "React",
+    "img": "https://i.ibb.co/MD5KB57/React.png"
+  },
+  {
+    "_id": "pl753",
+    "name": "Express.js",
+    "img": "https://i.ibb.co/6Y7QNrS/express.png"
+  },
+  {
+    "_id": "rd235",
+    "name": "mongoDB",
+    "img": "https://i.ibb.co/M21BfRz/mongoDB.png"
+  }
+]

@@ -1,0 +1,28 @@
+.line::after {
+  background-color: hsl(217, 43%, 35%);
+  content: " ";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.box {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  z-index: 0;
+}
+
+.box::after {
+  border: 2px solid hwb(217 31% 15%);
+  content: "";
+  display: block;
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 25px;
+  left: 25px;
+  z-index: -1;
+}
