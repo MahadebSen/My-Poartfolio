@@ -12,11 +12,11 @@ const Skills = () => {
 
   return (
     <section>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto pt-24 lg:pt-0">
         <p className="text-white text-4xl mb-20">Skills Highlight</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mx-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mx-24">
           {skills.map((item) => (
-            <EachSkill id={item._id} item={item}></EachSkill>
+            <EachSkill key={item._id} item={item}></EachSkill>
           ))}
         </div>
       </div>
