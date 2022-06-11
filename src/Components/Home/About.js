@@ -4,10 +4,10 @@ import "./Home.css";
 
 const About = () => {
   return (
-    <section className="my-20 lg:my-[190px]">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex justify-center items-center flex-col lg:flex-row gap-32 lg:gap-1 mx-20 text-left pb-12 ">
-          <div className="flex-1 mx-10 md:mx-32 lg:py-10 lg:ml-16 lg:mr-8">
+    <section id="about" className="my-28 lg:my-[190px]">
+      <div className="max-w-7xl mx-auto ">
+        <div className="flex justify-center items-center flex-col lg:flex-row mx-20 lg:mx-32 text-left border-4 border-[#021622] rounded-3xl shadow-2xl">
+          <div className="flex-1 mx-10 md:mx-12 my-12 lg:ml-16 lg:mr-8">
             <p className="text-white text-4xl mb-4 line">About Me </p>
             <p className="font-medium text-[rgb(223,232,255)]">
               Hi, i'm Mahadeb Sen and I enjoy creating things that live on the
@@ -20,7 +20,7 @@ const About = () => {
             </button>
           </div>
 
-          <div className="flex-1">
+          <div className="flex-1 my-16 lg:my-20 mx-8">
             <div className="box mx-auto">
               <img src={me} alt="" />
             </div>
