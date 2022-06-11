@@ -5,7 +5,7 @@ const ContactMe = () => {
   return (
     <section
       id="contactme"
-      class="text-gray-600 body-font text-left pt-[250px] mx-10 md:mx-32 lg:mx-16 xl:mx-36"
+      class="text-gray-600 body-font text-left pt-[70px] mx-10 md:mx-32 lg:mx-16 xl:mx-36"
     >
       <p className="text-white text-4xl text-center">Contact Me</p>
       <div class="container px-4 py-16 max-w-7xl mx-auto flex justify-center items-center flex-col lg:flex-row gap-28">

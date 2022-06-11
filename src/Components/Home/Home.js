@@ -3,6 +3,7 @@ import Footer from "../Footer/Footer";
 import About from "./About";
 import Banner from "./Banner";
 import ContactMe from "./ContactMe";
+import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Banner></Banner>
       <About></About>
       <Skills></Skills>
+      <Projects></Projects>
       <ContactMe></ContactMe>
       <Footer></Footer>
     </div>

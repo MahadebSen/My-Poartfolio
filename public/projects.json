@@ -1,7 +1,20 @@
 [
   {
-    "_id": "",
-    "img": "",
-    "desc": ""
+    "_id": "er415",
+    "name": "Foxtech",
+    "img": "https://i.ibb.co/zZ201Nn/foxtech-home.png",
+    "desc": "This is a warehouse management website. Here users can place orders, track their orders, delete their orders, and many more things. And admin can add items, and track all things."
+  },
+  {
+    "_id": "fs896",
+    "name": "Mr.Wholsey",
+    "img": "https://i.ibb.co/WVnW23y/mr-home.png",
+    "desc": "This is a manufacturer's website. Here users can add items, track their added items, delete items, and many more. And without log-in, no one can access some routes."
+  },
+  {
+    "_id": "jk965",
+    "name": "Fitness edge",
+    "img": "https://i.ibb.co/DG0z7jf/fitness-home.png",
+    "desc": "This is an independent service provider’s website. Here users can log in, and place orders. And without log-in, no one can go to the check-out page and place orders."
   }
 ]
