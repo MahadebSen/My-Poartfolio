@@ -8,11 +8,11 @@ const ContactMe = () => {
       class="text-gray-600 body-font text-left pt-[40px] mx-10 md:mx-32 lg:mx-16 xl:mx-36"
     >
       <p className="text-white text-4xl text-center">Contact Me</p>
-      <div class="container px-4 py-16 max-w-7xl mx-auto flex justify-center items-center flex-col lg:flex-row gap-28">
+      <div class="container px-0 md:px-5 py-16 max-w-7xl mx-auto flex justify-center items-center flex-col lg:flex-row gap-16 lg:gap-28">
         <div className="flex-1">
           <img width="480px" className="mx-auto" src={contact} alt="" />
         </div>
-        <form class="flex flex-1 flex-col md:ml-auto w-full p-10 border-[3px] border-[#021622] rounded-3xl shadow-2xl">
+        <form class="flex flex-1 flex-col md:ml-auto w-full p-8 md:p-10 border-[3px] border-[#021622] rounded-3xl shadow-2xl">
           <div class="relative mb-4">
             <label for="name" class="leading-7 text-sm text-white">
               Name

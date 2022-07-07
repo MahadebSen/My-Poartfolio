@@ -28,7 +28,7 @@ const Banner = () => {
             right now I am looking for a job to make it my profession.
           </p>
         </div>
-        <div className="flex-1 lg:mr-12">
+        <div className="flex-1 mx-6 md:mx-2 lg:mr-12">
           <img className="w-[500px] mx-auto" src={banner} alt="" />
         </div>
       </div>
