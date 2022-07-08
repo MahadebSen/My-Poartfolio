@@ -14,7 +14,7 @@ const Projects = () => {
     <section id="projects" className="mx-12 md:mx-20 lg:mx-16 xl:mx-40">
       <div className="max-w-7xl mx-auto my-40 ">
         <p className="text-white text-4xl">My Projects</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-16 md:mx-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-24 md:mx-4">
           {projects.map((project) => (
             <EachProject key={project._id} project={project}></EachProject>
           ))}
