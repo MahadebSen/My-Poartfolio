@@ -25,9 +25,9 @@ const About = () => {
             </a>
           </div>
 
-          <div className="flex-1 mt-3 mb-12 md:mt-3 md:mb-20 lg:my-20 lg:ml-8 lg:mr-16 xl:mr-8">
-            <div className="box mx-auto">
-              <img src={me} alt="" />
+          <div className="flex-1 mt-3 mb-[45px] md:mt-3 md:mb-20 lg:my-20 lg:ml-20 lg:mr-12 xl:ml-32 xl:mr-8">
+            <div className="box ">
+              <img className="rounded-lg" src={me} alt="" />
             </div>
           </div>
         </div>
