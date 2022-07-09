@@ -48,7 +48,7 @@ const Navbar = () => {
   return (
     <section className="sticky z-50 top-0 bg-[rgb(6,30,45)]">
       <nav className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-center mx-8 py-4 md:mx-12 md:py-4">
+        <div className="flex justify-between items-center mx-6 py-4 md:mx-12 md:py-4">
           <div>
             <Link to="/">
               <img width="60px" className="rounded-lg" src={logo} alt="" />
@@ -72,7 +72,7 @@ const Navbar = () => {
         <div
           className={
             active
-              ? "md:hidden absolute z-50 top-0 px-8 py-4 bg-[rgb(6,30,45)] w-[100%]"
+              ? "md:hidden absolute z-50 top-0 px-6 py-4 bg-[rgb(6,30,45)] w-[100%]"
               : "hidden"
           }
         >

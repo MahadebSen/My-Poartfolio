@@ -1,4 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import me from "../../images/IT'S ME.png";
 import "./Home.css";
 
@@ -15,17 +21,33 @@ const About = () => {
               interest on web development, I started my learning journey at
               "Programming Hero" with "Jhankar Mahbub" sir.
             </p>
-            <a
-              href="https://drive.google.com/file/d/184_ymrC3YyqNvnJkz4lIdga79Rj_Ke_4/view?usp=sharing"
-              target="blank"
-            >
-              <button className="text-white bg-[#bb005d] text-xl mt-8 px-4 py-3 rounded-lg">
-                My Resume
-              </button>
-            </a>
+
+            <div className="mt-8">
+              <a href="https://github.com/MahadebSen" target="blank">
+                <FontAwesomeIcon
+                  className="ml-1 mr-3 text-4xl text-white hover:text-[#b6c5f3] transition ease-in-out delay-40 hover:-translate-1 hover:scale-125 duration-200 hover:shadow-lg"
+                  icon={faGithub}
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/mahadeb186/?hl=en"
+                target="blank"
+              >
+                <FontAwesomeIcon
+                  className="mx-3 text-4xl text-white hover:text-[#b6c5f3] transition ease-in-out delay-40 hover:-translate-1 hover:scale-125 duration-200 hover:shadow-lg"
+                  icon={faInstagram}
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/mahadebsen/" target="blank">
+                <FontAwesomeIcon
+                  className="mx-3 text-4xl text-white hover:text-[#b6c5f3] transition ease-in-out delay-40 hover:-translate-1 hover:scale-125 duration-200 hover:shadow-lg"
+                  icon={faLinkedin}
+                />
+              </a>
+            </div>
           </div>
 
-          <div className="flex-1 mt-3 mb-[45px] md:mt-3 md:mb-20 lg:my-20 lg:ml-20 lg:mr-12 xl:ml-32 xl:mr-8">
+          <div className="flex-1 mt-3 mb-[45px] md:mt-3 md:mb-20 lg:my-20 lg:ml-20 lg:mr-10 xl:ml-32 xl:mr-8">
             <div className="box ">
               <img className="rounded-lg" src={me} alt="" />
             </div>

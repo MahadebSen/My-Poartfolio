@@ -22,12 +22,23 @@ const Banner = () => {
               }}
             />
           </p>
+
           <p className="font-medium text-[rgb(223,232,255)] pt-3">
             I really love to create things for the web. That's why inspite of
-            being from non-CSE background, I started learning about it. And
-            right now I am looking for a job to make it my profession.
+            being from non-CSE background, I started exploring about it. And
+            right now I'm trying to make my interest my career.
           </p>
+
+          <a
+            href="https://drive.google.com/file/d/184_ymrC3YyqNvnJkz4lIdga79Rj_Ke_4/view?usp=sharing"
+            target="blank"
+          >
+            <button className="border-2 border-transparent text-white bg-[#bb005d] transition-all delay-70 duration-200 hover:bg-transparent hover:text-[#bb005d] hover:border-[#bb005d] text-xl mt-8 px-3 py-2 rounded-lg">
+              My Resume
+            </button>
+          </a>
         </div>
+
         <div className="flex-1 mx-6 md:mx-2 lg:mr-12">
           <img className="w-[500px] mx-auto" src={banner} alt="" />
         </div>
